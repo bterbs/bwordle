@@ -1,4 +1,5 @@
-## Next.js Wordle Game like https://www.nytimes.com/games/wordle/index.html
+## Next.js Wordle Game
+#### similar to https://www.nytimes.com/games/wordle/index.html
 
 To run project locally:
 - clone project and cd into project directory

@@ -1,6 +1,6 @@
 # Next.js Wordle Game
 
-similar to wordle[https://www.nytimes.com/games/wordle/index.html]
+similar to [wordle](https://www.nytimes.com/games/wordle/index.html)
 
 To run project locally:
 

@@ -1,62 +1,34 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Bwordle</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Bwordle
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started by reading{' '}
+          <Link href="/instructions">
+          <a>the instructions!</a>
+        </Link>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
+          Powered by{'  '}
+          <h2 className="bfe">Brittany From Earlier</h2>
       </footer>
 
       <style jsx>{`
@@ -102,14 +74,14 @@ export default function Home() {
           text-decoration: none;
         }
 
-        .title a {
+        .description a {
           color: #0070f3;
           text-decoration: none;
         }
 
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
+        .description a:hover,
+        .description a:focus,
+        .description a:active {
           text-decoration: underline;
         }
 
@@ -180,6 +152,10 @@ export default function Home() {
 
         .logo {
           height: 1em;
+        }
+
+        .bfe {
+          margin-left: 10px;
         }
 
         @media (max-width: 600px) {

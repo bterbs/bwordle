@@ -10,16 +10,17 @@ export default function Home() {
       </Head>
 
       <main>
+        <div>
+        <p className="description">
+            Get started by reading{' '}
+            <Link href="/instructions">
+            <a>the instructions!</a>
+          </Link>
+        </p>
+        </div>
         <h1 className="title">
           Bwordle
         </h1>
-
-        <p className="description">
-          Get started by reading{' '}
-          <Link href="/instructions">
-          <a>the instructions!</a>
-        </Link>
-        </p>
 
         <div className="grid">
 
@@ -42,11 +43,9 @@ export default function Home() {
         }
 
         main {
-          padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: center;
           align-items: center;
         }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { GridRow } from "./GridRow";
+import GridRow from "./GridRow";
 
 export default {
     title: 'Components/GridRow',

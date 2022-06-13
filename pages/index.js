@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link';
+import GridRow from '../stories/GridRow/GridRow';
 
 export default function Home() {
   return (
@@ -21,6 +22,14 @@ export default function Home() {
         <h1 className="title">
           Bwordle
         </h1>
+        <div>
+          <GridRow rowNumber="1"/>
+          <GridRow rowNumber="2"/>
+          <GridRow rowNumber="3"/>
+          <GridRow rowNumber="4"/>
+          <GridRow rowNumber="5"/>
+          <GridRow rowNumber="6"/>
+        </div>
 
         <div className="grid">
 

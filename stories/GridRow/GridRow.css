@@ -1,8 +1,9 @@
 .grid-tile {
-    width: 20px;
-    height: 20px;
+    width: 62px;
+    height: 62px;
     margin: 2px;
     text-align: center;
     font-size: 21px;
     font-weight: bold;
+    caret-color: transparent;
 }
